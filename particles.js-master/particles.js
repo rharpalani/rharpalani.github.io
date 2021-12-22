@@ -20,7 +20,7 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 200,
         density: {
           enable: true,
           value_area: 800
@@ -73,7 +73,7 @@ var pJS = function(tag_id, params){
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: 200,
         direction: 'none',
         random: false,
         straight: false,
@@ -144,7 +144,7 @@ var pJS = function(tag_id, params){
   pJS.tmp.obj = {
     size_value: pJS.particles.size.value,
     size_anim_speed: pJS.particles.size.anim.speed,
-    move_speed: pJS.particles.move.speed,
+    move_speed: 1.5,
     line_linked_distance: pJS.particles.line_linked.distance,
     line_linked_width: pJS.particles.line_linked.width,
     mode_grab_distance: pJS.interactivity.modes.grab.distance,
